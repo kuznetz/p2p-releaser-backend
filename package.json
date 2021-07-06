@@ -1,0 +1,33 @@
+{
+  "name": "releaser-fastify",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "tsc",
+    "start": "set NODE_PATH=./dist && node ./dist/index.js",
+    "debug": "set NODE_PATH=./ && nodemon"
+  },
+  "dependencies": {
+    "bson": "^4.4.0",
+    "fastify-cors": "^6.0.1",
+    "fastify-swagger": "^4.8.2",
+    "leveldown": "^6.0.0",
+    "levelup": "^5.0.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "@types/leveldown": "^4.0.2",
+    "@types/levelup": "^4.3.1",
+    "@types/mongodb": "^3.6.17",
+    "@types/node": "^14.14.36",
+    "fastify": "^3.18.1",
+    "json-schema-to-ts": "^1.6.4",
+    "nodemon": "^2.0.9",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^4.3.5"
+  }
+}
